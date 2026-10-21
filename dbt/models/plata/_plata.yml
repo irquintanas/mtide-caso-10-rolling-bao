@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: stg_parte
+    description: "El parte diario limpio, con las dos entregas"
+    columns:
+      - name: turno
+        data_tests: [unique, not_null]
+      - name: cocinero
+        data_tests: [not_null]
+      - name: festival
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Brisa Fest", "Indie Ría", "Electro Puerto", "Rock na Vila", "Jazz Jardín", "Feria Gastro", "Mercado Nocturno", "Fiesta Universitaria"]

@@ -1,0 +1,12 @@
+{
+ "num": 10,
+ "empresa": "Rolling Bao",
+ "subtitulo": "food trucks en festivales",
+ "contexto": "Rolling Bao quiere su parte de turnos cargado solo. Y este fin de semana tiene cuatro food trucks en cuatro festivales, con los pedidos registrados en sus TPV: quiere saber **qué festival rinde más por hora abierta**.",
+ "preguntas": [
+  "¿Qué **festival** deja menos ingreso por ración?",
+  "¿Qué **cocinero** gasta más ingredientes por ración?",
+  "¿Qué **food truck** acumula más incidencias por cada 1.000 raciones?",
+  "¿Qué festival rinde más **por hora abierta** y cuál es su mejor hora? Usa la hora del pedido, no la del envío."
+ ]
+}
